@@ -14,6 +14,7 @@ public class Integer {
 		    int ans3=Math.min(a,b);
 		    int final2=Math.min(ans3,ans);
 		    System.out.println(final2);
+			System.out.println(ans3);
 		}
     }
 }
