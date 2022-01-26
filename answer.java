@@ -13,7 +13,9 @@ public class answer{
 			aathi.add(arr[i]);
 			
 		}
-		System.out.println(aathi.size());
+		System.out.println(aathi.size())
+		int answer=aathi.size()
+		System.out.println(N-answer);
 	
        
 }
