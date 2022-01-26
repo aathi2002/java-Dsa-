@@ -1,19 +1,19 @@
 import java.util.*;
 public class answer{
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-         
-        int n=sc.nextInt();
-        int num=0;
-        for(int i=0;i<n;i++)
-        {
-         int value=sc.nextInt();
-            if(num>value)
-            {
-                num=value;
-            }
-        }
-        System.out.print(num);
-    
-    }
+        Scanner in=new Scanner(System.in);
+		int N=in.nextInt();
+		int [] arr=new int [N];
+		for (int index = 0; index < arr.length; index++) {
+			arr[index]=in.nextInt();
+			
+		}
+		HashSet<Integer>aathi=new HashSet<>();
+		for (int i = 0; i < arr.length; i++) {
+			aathi.add(arr[i]);
+			
+		}
+		System.out.println(aathi.size());
+	
+       
 }
