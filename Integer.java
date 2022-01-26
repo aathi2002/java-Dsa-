@@ -5,17 +5,15 @@ public class Integer {
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        int num=Integer.MAX_VALUE;
-        for(int i=0;i<n;i++)
-        {
-         int value=sc.nextInt();
-            if(num>value)
-            {
-                num=value;
-            }
-        }
-        System.out.print(num);
+        Scanner in=new Scanner(System.in);
+		int test_case=in.nextInt();
+		while(test_case-->0){
+		    int a=in.nextInt();
+		    int b=in.nextInt();
+		    int ans=a-b;
+		    int ans3=Math.min(a,b);
+		    int final2=Math.min(ans3,ans);
+		    System.out.println(final2);
+		}
     }
 }
