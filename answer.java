@@ -15,7 +15,10 @@ public class answer{
 		}
 		System.out.println(aathi.size());
 		int answer=aathi.size();
-		System.out.println(N);
+
+
+		System.out.println(N-answer);
+
 	
        
 }
