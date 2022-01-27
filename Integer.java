@@ -6,14 +6,24 @@ public class Integer {
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner in=new Scanner(System.in);
-		int test_case=in.nextInt();
-		while(test_case-->0){
-		    int a=in.nextInt();
-		    int b=in.nextInt();
-		    int ans=a-b;
-		    int ans3=Math.min(a,b);
-		    int final2=Math.min(ans3,ans);
-		    System.out.println(final2);
+		int N=in.nextInt();
+		int [] arr=new int [N];
+		for (int index = 0; index < arr.length; index++) {
+			arr[index]=in.nextInt();
+			
 		}
+		HashSet<Integer>aathi=new HashSet<>();
+		for (int i = 0; i < arr.length; i++) {
+			aathi.add(arr[i]);
+			
+		}
+		System.out.println(aathi.size());
+	
+		
     }
+
+	
+
+	
+
 }
