@@ -10,6 +10,10 @@ public class Integer {
 		int [] arr=new int [N];
 		for (int index = 0; index < arr.length; index++) {
 			arr[index]=in.nextInt();
+
+		
+			
+
 			
 
 		// int test_case=in.nextInt();
